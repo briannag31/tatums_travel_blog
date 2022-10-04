@@ -15,13 +15,31 @@ body{
 }
 article{
     background-image: linear-gradient(pink, purple);
+    border-radius: .75em;
+    padding: .8%;
+    box-shadow: 5px 5px 9px pink;
+    margin-bottom: .8%;
 }
 header{
     background-image: url(https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80);
     background-size: cover;
     color: white;
+    border-radius: .75em;
+    padding: .8%;
+    box-shadow: 5px 5px 9px pink;
+    text-shadow: 5px 5px 9px pink;
+
 }
 a{
     color: lightseagreen;
     text-decoration: none;
+}
+img{
+    display: block;
+    height: 20%;
+    border:  pink solid;
+    margin-bottom: 1.5%;
+}
+.subheading{
+    border-bottom: solid purple;
 }
